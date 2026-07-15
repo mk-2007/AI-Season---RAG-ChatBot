@@ -1,0 +1,33 @@
+# Secrets: NEVER commit these
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache/build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Vector DB / runtime data
+db/
+chroma_db/
+*.sqlite3
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
